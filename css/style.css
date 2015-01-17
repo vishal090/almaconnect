@@ -1,0 +1,72 @@
+html {
+	background: #bcbcff url(../images/home_page.jpeg) repeat-x 0 0;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover; 
+}
+
+#login_form {
+	width: 300px;
+	background: #f0f0f0;
+	border: 1px solid white;
+	margin: 280px auto 0;
+	padding: 1em;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+h1 h2 h3 h4 h5 h6 {
+	margin-top: 0;
+	font-family: arial black, arial;
+	text-align: center;
+}
+
+input[type=text], input[type=password]{
+	display: block;
+	margin: 0 0 1em 0;
+	width: 280px;
+	border: 5px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 1em;
+}
+
+input[type=submit], form a{
+	border: 6px;
+	margin-right: 1em;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 12px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background: #808080;
+	color: white;
+	box-shadow: 0 1px 0 white;
+	-moz-border-radius: 0 1px 0 white;
+	-webkit-border-radius: 0 1px 0 white;
+}
+
+input[type=submit]:hover, form a:hover{
+	background: #ffebcd;
+	cursor: pointer;
+}
+
+.error{
+	color: #cd5c5c;
+	font-size: 15px;
+}
+
+fieldset{
+	width: 380px;
+	margin: auto;
+	margin-bottom: 2em;
+	display: block;
+}
+
+h1{
+	text-shadow: 0 1px 0 white;
+}
+
